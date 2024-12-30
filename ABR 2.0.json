@@ -1,5 +1,15 @@
 {
-  "schema": {},
+  "schema": {
+    "crud_objects": {}
+  },
   "rest": {
+    "config": {
+      "call_handling": "generic",
+      "authentication": "basic_auth",
+      "get": {},
+      "test_connection": {
+        "url": "https://docs.nimsuite.com"
+      }
+    }
   }
 }
